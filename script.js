@@ -4,6 +4,13 @@ let computerScore = 0;
 const rockButton = document.getElementById("rockButton");
 const paperButton = document.getElementById("paperButton");
 const scissorsButton = document.getElementById("scissorsButton");
+const toggle = document.getElementById('toggle');
+const body = document.querySelector('body')
+
+toggle.onclick = function(){
+    toggle.classList.toggle('active')
+    body.classList.toggle('active');
+}
 
 rockButton.addEventListener("click", () => play("rock"));
 paperButton.addEventListener("click", () => play("paper"));
