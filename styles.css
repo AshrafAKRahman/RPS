@@ -164,7 +164,7 @@ button#rockButton {
  .game{
     margin-top: 130px;
  }
-
+  }
 
 
   /* IPAD mediaquery */
@@ -181,4 +181,4 @@ button#rockButton {
         padding-top: 170px;
 
       }
-  }
+    }
